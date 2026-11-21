@@ -1,0 +1,3 @@
+curl -s -X POST http://localhost:8080/api/ai/chat \
+  -H "Content-Type: application/json" \
+  -d '{"prompt":"read the file build.gradle and tell me what it contains"}'
